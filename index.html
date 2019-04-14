@@ -19,7 +19,9 @@
 		document.getElementsByTagName("title")[0].innerHTML = titleText[x++ % titleText.length]
         }
     </script>
-    <iframe src="media/song.mp3" allow="autoplay" width="0" height="0"></iframe>
+    <audio autoplay>
+        <source src="media/song.mp3" type="audio/mp3">
+    </audio>
     <style>
         body {
             background-color: #000;
